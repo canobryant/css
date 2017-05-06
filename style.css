@@ -1,0 +1,69 @@
+*{
+	color: #fff;
+}
+body{
+	background: #444;
+	/*color: #aaa;*/
+}
+td{
+	border: #000;
+}
+.container{
+	margin: 0 auto;
+}
+.question{
+	/*width: 200px;*/
+	/*height: 200px;*/
+	width: 60%;
+	height: 200px;
+	background: red;
+	color: #aaa;
+	/*z-index: 0;*/
+}
+#q > span{
+	/*font-size: 20px;*/
+	/*font-size: 20pt;*/
+	font-size: 1.5em;
+}
+.blue{
+	background: blue;
+	/*height: 50px;*/
+	padding: 20px;
+	border: 3px solid pink;
+}
+.red{
+	background: red;
+	border: 3px solid pink;
+	/*height: 50px;*/
+	margin: 10px;
+}
+.tag{
+}
+
+ul {
+
+  margin: 10px;
+  padding-left: 20px;
+  list-style-type: none;
+}
+nav {
+  /*float: left;*/
+}
+nav li{
+	margin-top: 10px;
+	margin-left: 5px;
+	/*margin: 0 auto;*/
+	background: white;
+	width: 30px;
+	border: 2px solid green;
+	color: white;
+	/*display: inline;*/
+	float: left;
+}
+nav a{
+	padding:0 10px;
+	color: black;
+}
+.clearfix{
+	clear: both;
+}
